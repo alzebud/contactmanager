@@ -33,7 +33,7 @@ class Contact extends Component {
                 style={{ cursor: "pointer", float: "right", color: "red" }}
                 onClick={async () => {
                   await axios.delete(
-                    `http://jsonplaceholder.typicode.com/users/${id}`
+                    `https://jsonplaceholder.typicode.com/users/${id}`
                   );
                   value.dispatch({ type: "delete_contact", id });
                 }}
