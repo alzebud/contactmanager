@@ -39,7 +39,7 @@ class Contact extends Component {
                 }}
                 // onClick={() => {
                 //   axios
-                //     .delete(`http://jsonplaceholder.typicode.com/users/${id}`)
+                //     .delete(`https://jsonplaceholder.typicode.com/users/${id}`)
                 //     .then(() => value.dispatch({ type: "delete_contact", id }));
                 // }}
               />

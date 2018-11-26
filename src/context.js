@@ -40,7 +40,7 @@ export class Provider extends Component {
 
   // componentDidMount() {
   //   axios
-  //     .get("http://jsonplaceholder.typicode.com/users")
+  //     .get("https://jsonplaceholder.typicode.com/users")
   //     .then(res => this.setState({ contacts: res.data }));
   // }
 
